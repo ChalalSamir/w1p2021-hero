@@ -1,7 +1,7 @@
 @import 'reset';
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700');
 
-$hetic-green: #0de595;
+$hetic-green: #c23616;
 
 body,
 button,
@@ -32,4 +32,5 @@ textarea {
   border-radius: 5px;
   display: inline-block;
   border: none;
+  cursor: pointer;
 }

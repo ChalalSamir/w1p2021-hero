@@ -1,0 +1,306 @@
+{
+  "steps": [
+      {
+        "id": 1,
+        "title":"Vous êtes invités à LA soirée de l'année, voulez vous y allez ?",
+        "actions": [
+          {
+            "title": "Y aller",
+            "to": 2
+          },
+          {
+            "title": "Ne pas y aller",
+            "to": 3
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "title":"Vous avez décidé d’aller à la soirée, maintenant il faut choisir une tenue, vous voulez être plutôt excentrique ou discret",
+        "actions": [
+          {
+            "title": "Tenue excentrique",
+            "to": 4
+          },
+          {
+            "title": "Tenue discrète",
+            "to": 5
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "title":"Vous avez décidé de ne pas aller à la soirée, du coup le jeu ne peux pas continuer.. Vous avez perdu"
+      },
+      {
+        "id": 4,
+        "title":"Vous avez choisi la tenue excentrique ! Comment allez vous vous rendre à la soirée ?",
+        "actions": [
+          {
+            "title": "En voiture",
+            "to": 6
+          },
+          {
+            "title": "En transport",
+            "to": 7
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "title":"Vous avez choisi la discrète ! Comment allez vous vous rendre à la soirée ?",
+        "actions": [
+          {
+            "title": "En voiture",
+            "to": 6
+          },
+          {
+            "title": "En transport",
+            "to": 7
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "title":"Vous avez décidez de prendre votre voiture, en cours de route vous avez une panne d'essence. Appeler un dépaneur ou prendre un Uber ?",
+        "actions": [
+          {
+            "title": "Appeler un dépanneur",
+            "to": 8
+          },
+          {
+            "title": "Commander un Uber",
+            "to": 10
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "title":"Vous avez décidé de prendre les transports en commun, en étant à la gare vous vous rendez compte que vous n'avez pas votre titre de transport. Frauder ou appeler un Uber ?",
+        "actions": [
+          {
+            "title": "Frauder",
+            "to": 9
+          },
+          {
+            "title": "Appeler un Uber",
+            "to": 10
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "title":"Vous appelez un dépanneur, il arrive et vous tue pour vous piquer votre voiture... Vous avez perdu"
+      },
+      {
+        "id": 9,
+        "title":"Vous voulez frauder pour ne pas dépenser votre argent dans un Uber, pas de chance les contrôleurs étaient juste après, ils vous embarquent... Vous avez perdu"
+      },
+      {
+        "id": 10,
+        "title":"Vous appelez un Uber, il vous ammène à la soirée. À cette soirée vous pouvez soit boire, soit vous droguer, où être sobre, que choisissez vous ?",
+        "actions": [
+          {
+            "title": "Alcool",
+            "to": 11
+          },
+          {
+            "title": "Sobre",
+            "to": 12
+          },
+          {
+            "title": "Drogue",
+            "to": 13
+          }
+        ]
+      },
+      {
+        "id": 11,
+        "title":"Vous avez décidez de boire de l'alcool, vous êtes rapidement bourré, vous croisez les soeurs Dupont, elles vous proposent une boisson pour atténuer l'effet de l'alcool. Prenez vous la boisson ?",
+        "actions": [
+          {
+            "title": "Oui",
+            "to": 14
+          },
+          {
+            "title": "Non",
+            "to": 15
+          }
+        ]
+      },
+      {
+        "id": 12,
+        "title":"Vous avez décidé d'être sobre, vous voyez la plupart des invités mort bourré ou drogué, un invité surgit derrière vous et vous plante un couteau dans le dos sans faire exprès.. Vous avez perdu"
+          
+      },
+      {
+        "id": 13,
+        "title":"Vous avez décidé de vous droguer, vous commencez à pas vous sentir bien, trois groupes se forment dans les invités, un pour aller dans la piscine, un pour regarder un film, et le dernier pour aller faire une balade dans les bois que choisissez vous ?",
+        "actions": [
+          {
+            "title": "Aller se balader dans les bois",
+            "to": 18
+          },
+          {
+            "title": "Regarder un film",
+            "to": 17
+          },
+          {
+            "title": "Aller dans la piscine",
+            "to": 16
+          }
+        ]
+      },
+      {
+        "id": 14,
+        "title":"Vous prenez la boisson, vous êtes vraiment naïf, elle était empoisonnée... Vous avez perdu"
+      },
+      {
+        "id": 15,
+        "title":"Vous ne prenez pas la boisson, vous continuez à boire ce qui entraîne un coma éthylique... Vous avez perdu"
+      },
+      {
+        "id": 16,
+        "title":"Vous allez à la piscine, vous vous amusez avec les autres invités, une fois fini vous pouvez rentrer chez vous ou continuer de vous droguer. Que choisissez vous ?",
+        "actions": [
+          {
+            "title": "Rentrer chez soi",
+            "to": 23
+          },
+          {
+            "title": "Continuer de se droguer",
+            "to": 24
+          }
+        ]
+      },
+      {
+        "id": 17,
+        "title":"Vous voulez regarder un film, mais quel genre de film, plutôt romantique ou horreur ?",
+        "actions": [
+          {
+            "title": "Film romantique",
+            "to": 21
+          },
+          {
+            "title": "Film d'horreur",
+            "to": 22
+          }
+        ]
+      },
+      {
+        "id": 18,
+        "title":"Vous voulez aller vous balader dans les bois, peu de temps après il commence à faire très sombre et froid. Vous rentrez à la soirée ou continuez dans les bois ?",
+        "actions": [
+          {
+            "title": "Rentrer à la soirée",
+            "to": 19
+          },
+          {
+            "title": "Continuer dans les bois",
+            "to": 20
+          }
+        ]
+      },
+      {
+        "id": 19,
+        "title":"Vous décidez de rentrer chez vous, mais comment ? En Uber où en transport ?",
+        "actions": [
+          {
+            "title": "Uber",
+            "to": 25
+          },
+          {
+            "title": "Transport en commun",
+            "to": 26
+          }
+        ]
+      },
+      {
+        "id": 20,
+        "title":"Vous voulez continuer votre balade, mais un sanglier arrive au loin et vous charge... Vous avez perdu"
+      },
+      {
+        "id": 21,
+        "title":"Vous voulez regarder un film romantique.. le film étant assez calme vous êtes fatigué et vous décidez de rentrer chez vous, mais comment ? En Uber où en transport ?",
+        "actions": [
+          {
+            "title": "Uber",
+            "to": 25
+          },
+          {
+            "title": "Transport en commun",
+            "to": 26
+          }
+        ]
+      },
+      {
+        "id": 22,
+        "title":"Vous voulez regarder un film d'horreur, un screameur apparaît et vous faites une crise cardiaque... Vous avez perdu"
+      },
+      {
+        "id": 23,
+        "title":"Vous décidez de rentrer chez vous, mais comment ? En Uber où en transport ?",
+        "actions": [
+          {
+            "title": "Uber",
+            "to": 25
+          },
+          {
+            "title": "Transport en commun",
+            "to": 26
+          }
+        ]
+      },
+      {
+        "id": 24,
+        "title":"Vous voulez continuer à vous droguer, vous partez en badtrip... Vous avez perdu"
+      },
+      {
+        "id": 25,
+        "title":"Vous avez décidé d'appeler un Uber pour rentrer chez vous, sur la route vous voyez que le chauffeur baille, vous pouvez soit changer de chauffeur soit continuer avec le même pour rentrer plus vite chez vous. Que choisissez vous ?",
+        "actions": [
+          {
+            "title": "Changer de chauffeur",
+            "to": 28
+          },
+          {
+            "title": "Continuer avec le même chauffeur",
+            "to": 27
+          }
+        ]
+      },
+      {
+        "id": 26,
+        "title":"Je décide de prendre les transport pour rentrer, en cours de route le bus s'arrete plus tôt que prévu, le chauffeur me propose de me raccompagner jusqu'à chez moi. Je continue à pied où j'accepte sa proposition ?",
+        "actions": [
+            {
+              "title": "Continuer à pied",
+              "to": 29
+            },
+            {
+              "title": "Accepter la proposition du chauffeur",
+              "to": 30
+            }
+          ]
+      },
+      {
+        "id": 27,
+        "title":"Vous décidez de rester avec le même chauffeur pour rentrer plus vite chez vous.. 5 minutes plus tard le chauffeur s'endort et sort de la route, vous ne survivez pas à l'accident ... Vous avez perdu"
+      },
+      {
+        "id": 28,
+        "title":"Vous choisissez de changer de chauffeur pour plus de sécuriter, vous avez eu raison, le deuxième est bien plus en forme et vous ramène chez vous saint et sauf. Vous avez gagné !"
+      },
+      {
+        "id": 29,
+        "title":"Vous n'accepter pas la proposition du chauffeur et vous décidez de continuer à pied, vous marchez au millieu de la route et une voiture surgit de nul part et vous percute, vous ne survivez pas... Vous avez perdu"
+      },
+      {
+        "id": 30,
+        "title":"Vous décidez d'accepter la proposition du chauffeur car vous êtes trop fatigué pour continuer à pied, le chauffeur à été honnête et vous à ramenez chez vous comme convenu. Vous avez gagné !"
+      }
+
+  ]
+
+  
+}
