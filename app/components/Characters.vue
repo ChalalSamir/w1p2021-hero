@@ -1,8 +1,11 @@
 <template>
+<transition name="characters" appear >
   <div class="big-header">
     <h1>Choisissez votre personnage</h1>
 
-    <Character 
+    <div class="charac">
+
+          <Character 
       v-for="character in characters"
       v-bind:character="character"
       v-bind:key="character.name"
@@ -10,8 +13,12 @@
 
     </Character>
 
+    </div>
+
+
     <router-link class="button" to="/game/1">Go to Game</router-link>
   </div>
+</transition>
 </template>
 
 <script>
@@ -39,3 +46,31 @@ export default {
 };
 </script>
 
+
+<style>
+
+@keyframes slidein {
+
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: .9;
+  }
+
+}
+
+.characters-enter-active {
+  animation: slidein 3s;
+}
+
+.charac {
+  display: flex;
+  flex-direction: row;
+  align-content: space-between;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+</style>

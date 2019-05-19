@@ -1,5 +1,6 @@
 <template>
-  <div>
+<transition name="begin" appear >
+    <div class="game">
     <h1>{{ step.title }}</h1>
 
     <ul>
@@ -13,6 +14,7 @@
       </li>
     </ul>
   </div>
+</transition>
 </template>
 
 <script>
@@ -41,4 +43,10 @@
     }
   }
 </script>
+
+<style>
+
+
+
+</style>
 
