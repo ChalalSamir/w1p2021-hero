@@ -2,7 +2,7 @@
   "steps": [
       {
         "id": 1,
-        "title":"Vous êtes invités à LA soirée de l'année, voulez vous y allez ?",
+        "title":"Vous êtes invités à la soirée de l'année, voulez vous y allez ?",
         "actions": [
           {
             "title": "Y aller",
@@ -10,7 +10,8 @@
           },
           {
             "title": "Ne pas y aller",
-            "to": 3
+            "lose": true,
+            "label": "Vous avez décidé de ne pas aller à la soirée, du coup le jeu ne peux pas continuer.. Vous avez perdu"
           }
         ]
       },
@@ -27,10 +28,6 @@
             "to": 5
           }
         ]
-      },
-      {
-        "id": 3,
-        "title":"Vous avez décidé de ne pas aller à la soirée, du coup le jeu ne peux pas continuer.. Vous avez perdu"
       },
       {
         "id": 4,
@@ -66,7 +63,8 @@
         "actions": [
           {
             "title": "Appeler un dépanneur",
-            "to": 8
+            "lose": true,
+            "label": "Vous appelez un dépanneur, il arrive et vous tue pour vous piquer votre voiture... Vous avez perdu"
           },
           {
             "title": "Commander un Uber",
@@ -80,21 +78,14 @@
         "actions": [
           {
             "title": "Frauder",
-            "to": 9
+            "lose": true,
+            "label": "Vous voulez frauder pour ne pas dépenser votre argent dans un Uber, pas de chance les contrôleurs étaient juste après, ils vous embarquent... Vous avez perdu"
           },
           {
             "title": "Appeler un Uber",
             "to": 10
           }
         ]
-      },
-      {
-        "id": 8,
-        "title":"Vous appelez un dépanneur, il arrive et vous tue pour vous piquer votre voiture... Vous avez perdu"
-      },
-      {
-        "id": 9,
-        "title":"Vous voulez frauder pour ne pas dépenser votre argent dans un Uber, pas de chance les contrôleurs étaient juste après, ils vous embarquent... Vous avez perdu"
       },
       {
         "id": 10,
@@ -106,7 +97,8 @@
           },
           {
             "title": "Sobre",
-            "to": 12
+            "lose": true,
+            "label": "Vous avez décidé d'être sobre, vous voyez la plupart des invités mort bourré ou drogué, un invité surgit derrière vous et vous plante un couteau dans le dos sans faire exprès.. Vous avez perdu"
           },
           {
             "title": "Drogue",
@@ -120,18 +112,15 @@
         "actions": [
           {
             "title": "Oui",
-            "to": 14
+            "lose": true,
+            "label": "Vous prenez la boisson, vous êtes vraiment naïf, elle était empoisonnée... Vous avez perdu"
           },
           {
             "title": "Non",
-            "to": 15
+            "lose": true,
+            "label": "Vous ne prenez pas la boisson, vous continuez à boire ce qui entraîne un coma éthylique... Vous avez perdu"
           }
         ]
-      },
-      {
-        "id": 12,
-        "title":"Vous avez décidé d'être sobre, vous voyez la plupart des invités mort bourré ou drogué, un invité surgit derrière vous et vous plante un couteau dans le dos sans faire exprès.. Vous avez perdu"
-          
       },
       {
         "id": 13,
@@ -143,21 +132,19 @@
           },
           {
             "title": "Regarder un film",
-            "to": 17
+            "to": 17,
+            "onlyWoman": true
+          },
+          {
+            "title": "Faire un beerpong",
+            "to": 17,
+            "onlyMan": true
           },
           {
             "title": "Aller dans la piscine",
             "to": 16
           }
         ]
-      },
-      {
-        "id": 14,
-        "title":"Vous prenez la boisson, vous êtes vraiment naïf, elle était empoisonnée... Vous avez perdu"
-      },
-      {
-        "id": 15,
-        "title":"Vous ne prenez pas la boisson, vous continuez à boire ce qui entraîne un coma éthylique... Vous avez perdu"
       },
       {
         "id": 16,
@@ -169,7 +156,8 @@
           },
           {
             "title": "Continuer de se droguer",
-            "to": 24
+            "lose": true,
+            "label": "Vous voulez continuer à vous droguer, vous partez en badtrip... Vous avez perdu"
           }
         ]
       },
@@ -183,7 +171,8 @@
           },
           {
             "title": "Film d'horreur",
-            "to": 22
+            "lose": true,
+            "label": "Vous voulez regarder un film d'horreur, un screameur apparaît et vous faites une crise cardiaque... Vous avez perdu"
           }
         ]
       },
@@ -197,7 +186,8 @@
           },
           {
             "title": "Continuer dans les bois",
-            "to": 20
+            "lose": true,
+            "label": "Vous voulez continuer votre balade, mais un sanglier arrive au loin et vous charge... Vous avez perdu"
           }
         ]
       },
@@ -216,10 +206,6 @@
         ]
       },
       {
-        "id": 20,
-        "title":"Vous voulez continuer votre balade, mais un sanglier arrive au loin et vous charge... Vous avez perdu"
-      },
-      {
         "id": 21,
         "title":"Vous voulez regarder un film romantique.. le film étant assez calme vous êtes fatigué et vous décidez de rentrer chez vous, mais comment ? En Uber où en transport ?",
         "actions": [
@@ -232,10 +218,6 @@
             "to": 26
           }
         ]
-      },
-      {
-        "id": 22,
-        "title":"Vous voulez regarder un film d'horreur, un screameur apparaît et vous faites une crise cardiaque... Vous avez perdu"
       },
       {
         "id": 23,
@@ -252,20 +234,18 @@
         ]
       },
       {
-        "id": 24,
-        "title":"Vous voulez continuer à vous droguer, vous partez en badtrip... Vous avez perdu"
-      },
-      {
         "id": 25,
         "title":"Vous avez décidé d'appeler un Uber pour rentrer chez vous, sur la route vous voyez que le chauffeur baille, vous pouvez soit changer de chauffeur soit continuer avec le même pour rentrer plus vite chez vous. Que choisissez vous ?",
         "actions": [
           {
             "title": "Changer de chauffeur",
-            "to": 28
+            "win": true,
+            "label": "Vous choisissez de changer de chauffeur pour plus de sécuriter, vous avez eu raison, le deuxième est bien plus en forme et vous ramène chez vous saint et sauf. Vous avez gagné !"
           },
           {
             "title": "Continuer avec le même chauffeur",
-            "to": 27
+            "lose": true,
+            "label": "Vous décidez de rester avec le même chauffeur pour rentrer plus vite chez vous.. 5 minutes plus tard le chauffeur s'endort et sort de la route, vous ne survivez pas à l'accident ... Vous avez perdu"
           }
         ]
       },
@@ -275,31 +255,16 @@
         "actions": [
             {
               "title": "Continuer à pied",
-              "to": 29
+              "lose": true,
+              "label": "Vous n'accepter pas la proposition du chauffeur et vous décidez de continuer à pied, vous marchez au millieu de la route et une voiture surgit de nul part et vous percute, vous ne survivez pas... Vous avez perdu"
             },
             {
               "title": "Accepter la proposition du chauffeur",
-              "to": 30
+              "win": true,
+              "label": "Vous décidez d'accepter la proposition du chauffeur car vous êtes trop fatigué pour continuer à pied, le chauffeur à été honnête et vous à ramenez chez vous comme convenu. Vous avez gagné !"
             }
           ]
-      },
-      {
-        "id": 27,
-        "title":"Vous décidez de rester avec le même chauffeur pour rentrer plus vite chez vous.. 5 minutes plus tard le chauffeur s'endort et sort de la route, vous ne survivez pas à l'accident ... Vous avez perdu"
-      },
-      {
-        "id": 28,
-        "title":"Vous choisissez de changer de chauffeur pour plus de sécuriter, vous avez eu raison, le deuxième est bien plus en forme et vous ramène chez vous saint et sauf. Vous avez gagné !"
-      },
-      {
-        "id": 29,
-        "title":"Vous n'accepter pas la proposition du chauffeur et vous décidez de continuer à pied, vous marchez au millieu de la route et une voiture surgit de nul part et vous percute, vous ne survivez pas... Vous avez perdu"
-      },
-      {
-        "id": 30,
-        "title":"Vous décidez d'accepter la proposition du chauffeur car vous êtes trop fatigué pour continuer à pied, le chauffeur à été honnête et vous à ramenez chez vous comme convenu. Vous avez gagné !"
       }
-
   ]
 
   
