@@ -3,14 +3,13 @@
     <h1>Choisissez votre personnage</h1>
 
     <Character 
-      v-for="character in characters"
-      v-bind:character="character"
-      v-bind:key="character.name"
-      v-on:click="handleClick"
+    v-for="character in characters"
+    v-bind:character="character"
+    v-bind:key="character.name"
+    v-on:click="handleClick"
     >
 
     </Character>
-
     <router-link class="characters-game" to="/game/1">Jouer à Happy BirthDEAD</router-link>
   </div>
 </template>
@@ -102,3 +101,31 @@ export default {
 };
 </script>
 
+
+<style>
+
+@keyframes slidein {
+
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: .9;
+  }
+
+}
+
+.characters-enter-active {
+  animation: slidein 3s;
+}
+
+.charac {
+  display: flex;
+  flex-direction: row;
+  align-content: space-between;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+</style>

@@ -65,3 +65,22 @@ import countService from '../services/countService';
 export default {
 };
 </script>
+
+<style>
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: .9;
+  }
+}
+
+.begin-enter-active {
+  animation: fadeIn 2s;
+  
+  
+}
+</style>
