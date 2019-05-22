@@ -47,26 +47,26 @@ Notes :
 
 | Type  | Objectif | Fait ? | 
 | ----- | -------- | ------ |
-| Setup | Le repository respecte la nomenclature `w1p2021-hero-amsellem-calou`, avec tous les noms des membres, et les membres sont cités dans le README.md | Fait |
-| Setup | Le site est en ligne, et l'URL est citée dans le README.md | Fait |
-| Setup | Le site utilise VueJS | Fait |
-| Setup | Cloner le repository et exécuter `npm install` puis `npm run dev` s'effectue sans encombre | Fait |
-| Données | Un fichier `data.json` est utilisé pour stocker la structure du jeu | Fait |
+| Setup | Le repository respecte la nomenclature `w1p2021-hero-amsellem-calou`, avec tous les noms des membres, et les membres sont cités dans le README.md | Oui |
+| Setup | Le site est en ligne, et l'URL est citée dans le README.md | Oui |
+| Setup | Le site utilise VueJS | Oui |
+| Setup | Cloner le repository et exécuter `npm install` puis `npm run dev` s'effectue sans encombre | Oui |
+| Données | Un fichier `data.json` est utilisé pour stocker la structure du jeu | Oui |
 | Données | Le fichier `data.json` décrit 30 phases de jeu ou plus. Indiquez *En partie* s'il en décrit plus de 15. | En partie |
-| Pages | Une page d'accueil est présente | Fait |
-| Pages | Une page de choix du personnage est présente | Fait |
-| Pages | Une page de victoire est présente | Fait |
-| Pages | Une page d'échec est présente | Fait |
-| Routing | Une route dont l'`id` varie permet d'afficher les différentes étapes du jeu | Fait |
-| Routing | Lorsqu'on recharge la page (`Ctrl + R`), on se trouve toujours à la même étape | Fait |
+| Pages | Une page d'accueil est présente | Oui |
+| Pages | Une page de choix du personnage est présente | Oui |
+| Pages | Une page de victoire est présente | Oui |
+| Pages | Une page d'échec est présente | Oui |
+| Routing | Une route dont l'`id` varie permet d'afficher les différentes étapes du jeu | Oui |
+| Routing | Lorsqu'on recharge la page (`Ctrl + R`), on se trouve toujours à la même étape | Oui |
 | Transitions | Chaque page apparaît grâce à une transition fluide (la complexité de la transition n'est pas prise en compte ici) | En partie |
 | Transitions | Les transitions internes au jeu (d'une étape à une autre) et externes (intro, fin...) sont différentes | En partie |
-| État | Le choix du personnage et/ou de ses caractéristiques impacte l'aventure au moins une fois. **Indiquez ici comment succintement.** | Fait |
+| État | Le choix du personnage et/ou de ses caractéristiques impacte l'aventure au moins une fois. **Indiquez ici comment succintement.** | Oui |
 | État | Une décision ou un événement aléatoire survenu pendant l'aventure a un impact sur la suite, au moins une fois. **Indiquez ici comment succintement.** | NON |
-| État | Le choix du personnage et/ou ce qu'il s'est passé pendant l'aventure impactent l'écran de fin. **Si on choisit le personnage de Lisa, dans l'écran de fin il y aura un gif de Lisa, si on choisiy Bart, lr gif sera de Bart** | Oui |
+| État | Le choix du personnage et/ou ce qu'il s'est passé pendant l'aventure impactent l'écran de fin. **Si on choisit le personnage de Lisa, dans l'écran de fin il y aura un gif de Lisa, si on choisiy Bart, le gif sera de Bart** | Oui |
 | État | Au moins un service (classe de type `GameService`) est utilisé | NON |
 | Sauvegarde | Lorsqu'on recharge la page (`Ctrl + R`), le personnage, ses caractéristiques, les choix du joueur et tout le reste sont rétablis | NON |
 | Sauvegarde | Lorsqu'on quitte le jeu et qu'on revient plus tard à la page d'accueil (sur le même navigateur), il est possible de reprendre l'aventure où on l'avait laissée | NON |
-| Multimédia | L'expérience présente une vidéo ou plus | Fait |
+| Multimédia | L'expérience présente une vidéo ou plus **Un gif sur l'écran de fin** | Oui |
 | Multimédia | L'expérience présente un audio ou plus | NON |
 | Multimédia | L'utilisateur a la possibilité de couper le son à tout moment | NON |
