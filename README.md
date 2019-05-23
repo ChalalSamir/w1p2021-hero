@@ -7,35 +7,6 @@ URL du site : https://happybirthdead.netlify.com/
 - Samir Chalal
 - Léa De Amorin
 
-## Prologue
-
-- Voici le cahier des charges que doit respecter **au minimum** le projet.
-- Tout ce qui n'est pas précisé relève de vos choix personnels.
-
-### Git
-
-1. Forkez ce repository et renommez-le selon la nommenclature `w1p2021-hero-amsellem-calou`, en remplaçant les noms par les vôtres.
-2. Utilisez [netlify](https://www.netlify.com/) ou le service de votre choix pour mettre votre projet en ligne.
-3. Remplacez la fausse URL en haut de ce fichier par l'URL de votre projet.
-4. Renseignez les membres de votre groupe en haut du fichier.
-
-### Environnement technique
-
-Le projet doit être construit avec le framework [VueJS](https://vuejs.org/).
-
-### Lancer le projet
-
-Se mettre dans un terminal dans le répertoire du projet forké, puis :
-* `npm i`
-* `npm run dev`
-
-#### Plugins conseillés
-
-- [Vue.js devtools pour Chrome, inspecteur vue](https://chrome.google.com/webstore/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
-- [Vue.js devtools pour Firefox, inspecteur vue](https://addons.mozilla.org/fr/firefox/addon/vue-js-devtools/)
-- [Plugin vue pour VSCode, coloration syntaxique](https://marketplace.visualstudio.com/items?itemName=octref.vetur)
-- [Plugin eslint pour VSCode, validation de code](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
-
 
 ### Rendu final
 
@@ -68,5 +39,5 @@ Notes :
 | Sauvegarde | Lorsqu'on recharge la page (`Ctrl + R`), le personnage, ses caractéristiques, les choix du joueur et tout le reste sont rétablis | NON |
 | Sauvegarde | Lorsqu'on quitte le jeu et qu'on revient plus tard à la page d'accueil (sur le même navigateur), il est possible de reprendre l'aventure où on l'avait laissée | NON |
 | Multimédia | L'expérience présente une vidéo ou plus **Un gif sur l'écran de fin** | Oui |
-| Multimédia | L'expérience présente un audio ou plus | NON |
+| Multimédia | L'expérience présente un audio ou plus | Oui |
 | Multimédia | L'utilisateur a la possibilité de couper le son à tout moment | NON |
