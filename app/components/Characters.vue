@@ -2,21 +2,31 @@
   <div class="characters">
     <h1>Choisissez votre personnage</h1>
 
-    <Character 
+  <div class="contain">
+
+     <Character 
     v-for="character in characters"
     v-bind:character="character"
     v-bind:key="character.name"
     v-on:click="handleClick"
     >
-
     </Character>
-    <router-link class="characters-game" to="/game/1">Jouer à Happy BirthDEAD</router-link>
+
+  </div>
+
+    <router-link class="characters-game" to="/game/1">Jouez à Happy BirthDEAD</router-link>
   </div>
 </template>
 
 <style>
 
+
 @import url('https://fonts.googleapis.com/css?family=Indie+Flower&display=swap');
+
+.contain {
+  display: flex;
+  flex-direction: row;
+}
 
 .characters{
   padding: 30px;
@@ -24,7 +34,7 @@
   min-height: 100vh;
   background-color: #c23616;
   display: flex;
-  justify-content: center;
+  justify-content:space-around;
   align-items: center;
   flex-wrap: wrap;
   flex-direction: column;
@@ -33,22 +43,49 @@
 
 .characters h1{
   font-size: 50px;
+  
 }
 
 .characters-game{
   color: black;
   font-size: 30px;
   text-decoration: none;
-  margin-top: 40px;
+  margin-top: 15px;
   border: 2px solid black;
   padding: 30px;
   transition: background-color 0.5s, color 0.5s;
+  margin-bottom: 30px;
 }
 
 .characters-game:hover{
   background-color: black;
   color: white;
 }
+
+@keyframes slidein {
+
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: .9;
+  }
+
+}
+
+.characters-enter-active {
+  animation: slidein 3s;
+}
+
+.charac {
+  display: flex;
+  flex-direction: row;
+  align-content: space-between;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
 
 </style>
 
@@ -89,32 +126,3 @@ export default {
   }
 };
 </script>
-
-
-<style>
-
-@keyframes slidein {
-
-  from {
-    opacity: 0;
-  }
-
-  to {
-    opacity: .9;
-  }
-
-}
-
-.characters-enter-active {
-  animation: slidein 3s;
-}
-
-.charac {
-  display: flex;
-  flex-direction: row;
-  align-content: space-between;
-  margin-top: 30px;
-  margin-bottom: 30px;
-}
-
-</style>

@@ -1,9 +1,11 @@
 <template>
   <div class="win">
-    <audio autoplay loop preload="auto">
+    <audio class="audioPlayer" autoplay preload="auto">
       <source src="musiqueWin.mp3" type="audio/mpeg">
       Your browser does not support the audio element.
     </audio>
+    <button @click="PlaySong()" class="play"><img src="../assets/images/sound.png" alt=""></button>
+    <button @click="PauseSong()" class="pause"><img src="../assets/images/mute.png" alt=""></button>
     <h1>{{ messageWin }}</h1>
     <img :src="gifWin">
     
@@ -16,6 +18,30 @@
 <style scoped>
 
 @import url('https://fonts.googleapis.com/css?family=Indie+Flower&display=swap');
+
+.pause {
+  border: none;
+  background: none;
+
+}
+
+.pause img {
+  height: 35px;
+  width: 35px;
+
+}
+
+.play {
+  border: none;
+  background: none;
+
+}
+
+.play img {
+  height: 35px;
+  width: 35px;
+
+}
 
 .win{
   height: 100vh;
@@ -60,7 +86,18 @@
         messageWin: localStorage.getItem('endGameWin'),
         gifWin: localStorage.getItem('gifWin')
       }
+    },
+    methods: {
+    PlaySong(){
+  
+      var song = document.querySelector('.audioPlayer');
+      song.play();
+    },
+    PauseSong() {
+      var song = document.querySelector('.audioPlayer');
+       song.pause();
     }
+  }
   }
 </script>
 
