@@ -19,8 +19,9 @@
 @import url('https://fonts.googleapis.com/css?family=Indie+Flower&display=swap');
 
 .characters{
-  height: 100vh;
+  padding: 30px;
   width: 100vw;
+  min-height: 100vh;
   background-color: #c23616;
   display: flex;
   justify-content: center;
@@ -41,26 +42,12 @@
   margin-top: 40px;
   border: 2px solid black;
   padding: 30px;
-  position: relative;
-  overflow: hidden;
+  transition: background-color 0.5s, color 0.5s;
 }
 
-.characters-game::after{
-  content: "Suivant";
-  text-align: center;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
+.characters-game:hover{
   background-color: black;
-  transform: translateX(-100%);
-  transition: transform 0.7s;
   color: white;
-}
-
-.characters-game:hover::after{
-  transform: translateX(0);
 }
 
 </style>
@@ -90,11 +77,13 @@ export default {
   },
   methods: {
     handleClick(character) {
-      if(character.name === "Teddy"){
-        localStorage.setItem('sexe', 'homme')
+      if(character.name === "Bart"){
+        alert('Vous avez choisi Bart')
+        localStorage.setItem('sexe', 'garçon')
       }
-      if(character.name === "Melissa"){
-        localStorage.setItem('sexe', 'femme')
+      if(character.name === "Lisa"){
+        localStorage.setItem('sexe', 'fille')
+        alert('Vous avez choisi Lisa')
       }
     }
   }

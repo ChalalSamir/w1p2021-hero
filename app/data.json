@@ -11,7 +11,9 @@
           {
             "title": "Ne pas y aller",
             "lose": true,
-            "label": "Vous avez décidé de ne pas aller à la soirée, du coup le jeu ne peux pas continuer.. Vous avez perdu"
+            "label": "Vous avez décidé de ne pas aller à la soirée, du coup le jeu ne peux pas continuer.. Vous avez perdu",
+            "gifBart": "https://media2.giphy.com/media/rAKIEXmwAeHHq/giphy.gif?cid=790b76115ce5099849756d35738fd6c5&rid=giphy.gif",
+            "gifLisa": "https://media2.giphy.com/media/RhHjRzVRuqjHq/giphy.gif?cid=790b76115ce509c855357349738fa5d9&rid=giphy.gif"
           }
         ]
       },
@@ -64,7 +66,9 @@
           {
             "title": "Appeler un dépanneur",
             "lose": true,
-            "label": "Vous appelez un dépanneur, il arrive et vous tue pour vous piquer votre voiture... Vous avez perdu"
+            "label": "Vous appelez un dépanneur, il arrive et vous tue pour vous piquer votre voiture... Vous avez perdu",
+            "gifBart": "https://media2.giphy.com/media/rAKIEXmwAeHHq/giphy.gif?cid=790b76115ce5099849756d35738fd6c5&rid=giphy.gif",
+            "gifLisa": "https://media2.giphy.com/media/RhHjRzVRuqjHq/giphy.gif?cid=790b76115ce509c855357349738fa5d9&rid=giphy.gif"
           },
           {
             "title": "Commander un Uber",
@@ -79,7 +83,9 @@
           {
             "title": "Frauder",
             "lose": true,
-            "label": "Vous voulez frauder pour ne pas dépenser votre argent dans un Uber, pas de chance les contrôleurs étaient juste après, ils vous embarquent... Vous avez perdu"
+            "label": "Vous voulez frauder pour ne pas dépenser votre argent dans un Uber, pas de chance les contrôleurs étaient juste après, ils vous embarquent... Vous avez perdu",
+            "gifBart": "https://media2.giphy.com/media/rAKIEXmwAeHHq/giphy.gif?cid=790b76115ce5099849756d35738fd6c5&rid=giphy.gif",
+            "gifLisa": "https://media2.giphy.com/media/RhHjRzVRuqjHq/giphy.gif?cid=790b76115ce509c855357349738fa5d9&rid=giphy.gif"
           },
           {
             "title": "Appeler un Uber",
@@ -98,7 +104,9 @@
           {
             "title": "Sobre",
             "lose": true,
-            "label": "Vous avez décidé d'être sobre, vous voyez la plupart des invités mort bourré ou drogué, un invité surgit derrière vous et vous plante un couteau dans le dos sans faire exprès.. Vous avez perdu"
+            "label": "Vous avez décidé d'être sobre, vous voyez la plupart des invités mort bourré ou drogué, un invité surgit derrière vous et vous plante un couteau dans le dos sans faire exprès.. Vous avez perdu",
+            "gifBart": "https://media2.giphy.com/media/rAKIEXmwAeHHq/giphy.gif?cid=790b76115ce5099849756d35738fd6c5&rid=giphy.gif",
+            "gifLisa": "https://media2.giphy.com/media/RhHjRzVRuqjHq/giphy.gif?cid=790b76115ce509c855357349738fa5d9&rid=giphy.gif"
           },
           {
             "title": "Drogue",
@@ -113,12 +121,16 @@
           {
             "title": "Oui",
             "lose": true,
-            "label": "Vous prenez la boisson, vous êtes vraiment naïf, elle était empoisonnée... Vous avez perdu"
+            "label": "Vous prenez la boisson, vous êtes vraiment naïf, elle était empoisonnée... Vous avez perdu",
+            "gifBart": "https://media2.giphy.com/media/rAKIEXmwAeHHq/giphy.gif?cid=790b76115ce5099849756d35738fd6c5&rid=giphy.gif",
+            "gifLisa": "https://media2.giphy.com/media/RhHjRzVRuqjHq/giphy.gif?cid=790b76115ce509c855357349738fa5d9&rid=giphy.gif"
           },
           {
             "title": "Non",
             "lose": true,
-            "label": "Vous ne prenez pas la boisson, vous continuez à boire ce qui entraîne un coma éthylique... Vous avez perdu"
+            "label": "Vous ne prenez pas la boisson, vous continuez à boire ce qui entraîne un coma éthylique... Vous avez perdu",
+            "gifBart": "https://media2.giphy.com/media/rAKIEXmwAeHHq/giphy.gif?cid=790b76115ce5099849756d35738fd6c5&rid=giphy.gif",
+            "gifLisa": "https://media2.giphy.com/media/RhHjRzVRuqjHq/giphy.gif?cid=790b76115ce509c855357349738fa5d9&rid=giphy.gif"
           }
         ]
       },
@@ -157,7 +169,9 @@
           {
             "title": "Continuer de se droguer",
             "lose": true,
-            "label": "Vous voulez continuer à vous droguer, vous partez en badtrip... Vous avez perdu"
+            "label": "Vous voulez continuer à vous droguer, vous partez en badtrip... Vous avez perdu",
+            "gifBart": "https://media2.giphy.com/media/rAKIEXmwAeHHq/giphy.gif?cid=790b76115ce5099849756d35738fd6c5&rid=giphy.gif",
+            "gifLisa": "https://media2.giphy.com/media/RhHjRzVRuqjHq/giphy.gif?cid=790b76115ce509c855357349738fa5d9&rid=giphy.gif"
           }
         ]
       },
@@ -172,7 +186,9 @@
           {
             "title": "Film d'horreur",
             "lose": true,
-            "label": "Vous voulez regarder un film d'horreur, un screameur apparaît et vous faites une crise cardiaque... Vous avez perdu"
+            "label": "Vous voulez regarder un film d'horreur, un screameur apparaît et vous faites une crise cardiaque... Vous avez perdu",
+            "gifBart": "https://media2.giphy.com/media/rAKIEXmwAeHHq/giphy.gif?cid=790b76115ce5099849756d35738fd6c5&rid=giphy.gif",
+            "gifLisa": "https://media2.giphy.com/media/RhHjRzVRuqjHq/giphy.gif?cid=790b76115ce509c855357349738fa5d9&rid=giphy.gif"
           }
         ]
       },
@@ -187,7 +203,9 @@
           {
             "title": "Continuer dans les bois",
             "lose": true,
-            "label": "Vous voulez continuer votre balade, mais un sanglier arrive au loin et vous charge... Vous avez perdu"
+            "label": "Vous voulez continuer votre balade, mais un sanglier arrive au loin et vous charge... Vous avez perdu",
+            "gifBart": "https://media2.giphy.com/media/rAKIEXmwAeHHq/giphy.gif?cid=790b76115ce5099849756d35738fd6c5&rid=giphy.gif",
+            "gifLisa": "https://media2.giphy.com/media/RhHjRzVRuqjHq/giphy.gif?cid=790b76115ce509c855357349738fa5d9&rid=giphy.gif"
           }
         ]
       },
@@ -240,12 +258,16 @@
           {
             "title": "Changer de chauffeur",
             "win": true,
-            "label": "Vous choisissez de changer de chauffeur pour plus de sécuriter, vous avez eu raison, le deuxième est bien plus en forme et vous ramène chez vous saint et sauf. Vous avez gagné !"
+            "label": "Vous choisissez de changer de chauffeur pour plus de sécuriter, vous avez eu raison, le deuxième est bien plus en forme et vous ramène chez vous saint et sauf. Vous avez gagné !",
+            "gifBart": "https://media0.giphy.com/media/xT5LMVTPf4zIH3zYk0/giphy.gif?cid=790b76115ce50d3637444b744dca218d&rid=giphy.gif",
+            "gifLisa": "https://media0.giphy.com/media/l2Je2SKpkEkIPJoCA/giphy.gif?cid=790b76115ce50cc5714750556fcb3f5d&rid=giphy.gif"
           },
           {
             "title": "Continuer avec le même chauffeur",
             "lose": true,
-            "label": "Vous décidez de rester avec le même chauffeur pour rentrer plus vite chez vous.. 5 minutes plus tard le chauffeur s'endort et sort de la route, vous ne survivez pas à l'accident ... Vous avez perdu"
+            "label": "Vous décidez de rester avec le même chauffeur pour rentrer plus vite chez vous.. 5 minutes plus tard le chauffeur s'endort et sort de la route, vous ne survivez pas à l'accident ... Vous avez perdu",
+            "gifBart": "https://media2.giphy.com/media/rAKIEXmwAeHHq/giphy.gif?cid=790b76115ce5099849756d35738fd6c5&rid=giphy.gif",
+            "gifLisa": "https://media2.giphy.com/media/RhHjRzVRuqjHq/giphy.gif?cid=790b76115ce509c855357349738fa5d9&rid=giphy.gif"
           }
         ]
       },
@@ -256,12 +278,16 @@
             {
               "title": "Continuer à pied",
               "lose": true,
-              "label": "Vous n'accepter pas la proposition du chauffeur et vous décidez de continuer à pied, vous marchez au millieu de la route et une voiture surgit de nul part et vous percute, vous ne survivez pas... Vous avez perdu"
+              "label": "Vous n'accepter pas la proposition du chauffeur et vous décidez de continuer à pied, vous marchez au millieu de la route et une voiture surgit de nul part et vous percute, vous ne survivez pas... Vous avez perdu",
+              "gifBart": "https://media2.giphy.com/media/rAKIEXmwAeHHq/giphy.gif?cid=790b76115ce5099849756d35738fd6c5&rid=giphy.gif",
+              "gifLisa": "https://media2.giphy.com/media/RhHjRzVRuqjHq/giphy.gif?cid=790b76115ce509c855357349738fa5d9&rid=giphy.gif"
             },
             {
               "title": "Accepter la proposition du chauffeur",
               "win": true,
-              "label": "Vous décidez d'accepter la proposition du chauffeur car vous êtes trop fatigué pour continuer à pied, le chauffeur à été honnête et vous à ramenez chez vous comme convenu. Vous avez gagné !"
+              "label": "Vous décidez d'accepter la proposition du chauffeur car vous êtes trop fatigué pour continuer à pied, le chauffeur à été honnête et vous à ramenez chez vous comme convenu. Vous avez gagné !",
+              "gifBart": "https://media0.giphy.com/media/xT5LMVTPf4zIH3zYk0/giphy.gif?cid=790b76115ce50d3637444b744dca218d&rid=giphy.gif",
+              "gifLisa": "https://media0.giphy.com/media/l2Je2SKpkEkIPJoCA/giphy.gif?cid=790b76115ce50cc5714750556fcb3f5d&rid=giphy.gif"
             }
           ]
       }

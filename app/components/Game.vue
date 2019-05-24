@@ -34,6 +34,10 @@
   font-family: 'Indie Flower';
 }
 
+.animation-sortie{
+  animation: slidein 1s;
+}
+
 .game h1 {
   text-align: center;
   font-size: 40px;
@@ -87,6 +91,17 @@
   text-decoration: none;
 }
 
+@keyframes slidein {
+
+  from {
+    opacity: 0;
+    background-color: black;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
 
 </style>
 
@@ -117,21 +132,36 @@
       doActions(action){
         if(action.to) {
           this.$router.push({params: {id: action.to}})
+          document.querySelector('.game').classList.add('animation-sortie')
+          setTimeout(function() {
+            document.querySelector('.game').classList.remove('animation-sortie')
+          }, 500)
         } 
         if(action.lose === true){
           localStorage.setItem('endGameLose', action.label)
+          if(localStorage.getItem('sexe') === 'garçon'){
+            localStorage.setItem('gifLose', action.gifBart)
+          } else {
+            localStorage.setItem('gifLose', action.gifLisa)
+          }
           this.$router.push({path: '/lose'})
         }
         if(action.win === true){
           localStorage.setItem('endGameWin', action.label)
+          if(localStorage.getItem('sexe') === 'garçon'){
+            localStorage.setItem('gifWin', action.gifBart)
+          } else {
+            localStorage.setItem('gifWin', action.gifLisa)
+          }
           this.$router.push({path: '/win'})
         }
       },
       canDoAction(action) {
-        if (action.onlyMan && localStorage.getItem('sexe') !== 'homme') {
+
+        if (action.onlyMan && localStorage.getItem('sexe') !== 'garçon') {
           return false;
         }
-        if (action.onlyWoman && localStorage.getItem('sexe') !== 'femme') {
+        if (action.onlyWoman && localStorage.getItem('sexe') !== 'fille') {
           return false;
         }
 

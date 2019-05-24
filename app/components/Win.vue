@@ -1,9 +1,15 @@
 <template>
   <div class="win">
-    
+    <audio autoplay loop preload="auto">
+      <source src="musiqueWin.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
     <h1>{{ messageWin }}</h1>
-
-    <router-link class="win-home" to="/">Go to Home</router-link>
+    <img :src="gifWin">
+    
+    <transition name="pane">
+      <router-link class="win-home" to="/">Go to Home</router-link>
+    </transition>
   </div>
 </template>
 
@@ -36,26 +42,12 @@
   margin-top: 40px;
   border: 2px solid black;
   padding: 30px;
-  position: relative;
-  overflow: hidden;
+  transition: background-color 0.5s, color 0.5s;
 }
 
-.win-home::after{
-  content: "Suivant";
-  text-align: center;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
+.win-home:hover{
   background-color: black;
-  transform: translateX(-100%);
-  transition: transform 0.7s;
   color: white;
-}
-
-.win-home:hover::after{
-  transform: translateX(0);
 }
 
 
@@ -65,7 +57,8 @@
   export default {
     data() {
       return{
-        messageWin: localStorage.getItem('endGameWin')
+        messageWin: localStorage.getItem('endGameWin'),
+        gifWin: localStorage.getItem('gifWin')
       }
     }
   }

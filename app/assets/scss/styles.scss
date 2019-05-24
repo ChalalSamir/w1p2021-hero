@@ -1,2 +1,48 @@
 @import 'reset';
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700');
+
+.pane-leave-active,
+.pane-enter-active {
+  &::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transform: translateX(100vw);
+    background: black;
+  }
+}
+
+.pane-leave-active {
+  animation: fake 0.5s;
+
+  &::after {
+    animation: slideLeave 0.5s;
+  }
+}
+
+.pane-enter-active {
+  animation: fake 1s;
+
+  &::after {
+    animation: slideEnter 0.5s ease 0.5s;
+  }
+}
+
+@keyframes slideLeave {
+  to {
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideEnter {
+  from {
+    transform: translate(0);
+  }
+  to {
+    transform: translateX(-100vw);
+  }
+}
