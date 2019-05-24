@@ -40,4 +40,4 @@ Notes :
 | Sauvegarde | Lorsqu'on quitte le jeu et qu'on revient plus tard à la page d'accueil (sur le même navigateur), il est possible de reprendre l'aventure où on l'avait laissée | NON |
 | Multimédia | L'expérience présente une vidéo ou plus **Un gif sur l'écran de fin** | Oui |
 | Multimédia | L'expérience présente un audio ou plus | Oui |
-| Multimédia | L'utilisateur a la possibilité de couper le son à tout moment | NON |
+| Multimédia | L'utilisateur a la possibilité de couper le son à tout moment | Oui |
