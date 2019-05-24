@@ -149,7 +149,7 @@
           },
           {
             "title": "Faire un beerpong",
-            "to": 17,
+            "to": 20,
             "onlyMan": true
           },
           {
@@ -187,6 +187,54 @@
             "title": "Film d'horreur",
             "lose": true,
             "label": "Vous voulez regarder un film d'horreur, un screameur apparaît et vous faites une crise cardiaque... Vous avez perdu",
+            "gifBart": "https://media2.giphy.com/media/rAKIEXmwAeHHq/giphy.gif?cid=790b76115ce5099849756d35738fd6c5&rid=giphy.gif",
+            "gifLisa": "https://media2.giphy.com/media/RhHjRzVRuqjHq/giphy.gif?cid=790b76115ce509c855357349738fa5d9&rid=giphy.gif"
+          }
+        ]
+      },
+      {
+        "id": 20,
+        "title":"Vous voulez faire un beerpong, équipe bleue ou rouge ?",
+        "actions": [
+          {
+            "title": "Équipe bleue",
+            "to": 22
+          },
+          {
+            "title": "Équipe rouge",
+            "to": 24
+          }
+        ]
+      },
+      {
+        "id": 22,
+        "title": "Vous êtes dans l'équipe bleue, vous gagnez le beerpong ! Bravo. Voulez vous rentrez chez vous ?",
+        "actions": [
+          {
+            "title": "Oui",
+            "to": 23
+          },
+          {
+            "title": "Non",
+            "lose": true,
+            "label": "Une personne de l'équipe rouge, énervé d'avoir perdu et très alcoolisé vous poignarde dans le dos, vous mourrez, donc vous avez perdu.",
+            "gifBart": "https://media2.giphy.com/media/rAKIEXmwAeHHq/giphy.gif?cid=790b76115ce5099849756d35738fd6c5&rid=giphy.gif",
+            "gifLisa": "https://media2.giphy.com/media/RhHjRzVRuqjHq/giphy.gif?cid=790b76115ce509c855357349738fa5d9&rid=giphy.gif"
+          }
+        ]
+      },
+      {
+        "id": 24,
+        "title": "Vous êtes dans l'équipe rouge, vous avez perdu le beerpong ! Dommage. Voulez vous rentrez chez vous ?",
+        "actions": [
+          {
+            "title": "Oui",
+            "to": 23
+          },
+          {
+            "title": "Non",
+            "lose": true,
+            "label": "Vous recommencez une partie, en jouant vous glissez et vous cognez le coin de la table sur la tête, vous mourrez, vous avez perdu",
             "gifBart": "https://media2.giphy.com/media/rAKIEXmwAeHHq/giphy.gif?cid=790b76115ce5099849756d35738fd6c5&rid=giphy.gif",
             "gifLisa": "https://media2.giphy.com/media/RhHjRzVRuqjHq/giphy.gif?cid=790b76115ce509c855357349738fa5d9&rid=giphy.gif"
           }

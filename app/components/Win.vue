@@ -1,6 +1,6 @@
 <template>
   <div class="win">
-    <audio class="audioPlayer" autoplay preload="auto">
+    <audio class="audioPlayer" autoplay loop preload="auto">
       <source src="musiqueWin.mp3" type="audio/mpeg">
       Your browser does not support the audio element.
     </audio>
